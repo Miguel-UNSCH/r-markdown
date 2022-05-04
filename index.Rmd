@@ -1,7 +1,5 @@
 ---
-title: "Ventana de prueba"
+title: "Inferencia estadística"
 ---
 
-Hola, muchachos, aquí va toda la chamba.
-
-## F :(
+- La inferencia estadística es el conjunto de métodos que permiten inducir, a través de una muestra estadística, el comportamiento de una determinada población. La inferencia estadística, estudia entonces como, a través de la aplicación de dichos métodos sobre los datos de una muestra, se pueden extraer conclusiones sobre los parámetros de la población de datos. De la misma manera estudia también el grado de fiabilidad de los resultados extraídos del estudio.

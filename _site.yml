@@ -3,10 +3,13 @@ output_dir: "."
 navbar:
   title: "Inferencia Estadística"
   left:
-    - text: "Prueba"
+    - text: "Home"
       href: index.html
+    - text: "Prueba"
+      href: prueba.html
     - text: "About"
       href: about.html
+
 output:
   html_document:
     theme: flatly

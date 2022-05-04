@@ -2,4 +2,10 @@
 title: "Quienes somos?"
 ---
 
-Los mismos de siempre.
+## Integrantes
+
+- 1.
+- 2.
+- 3.
+- 4.
+- 5. 
