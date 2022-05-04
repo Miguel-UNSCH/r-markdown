@@ -1,5 +1,5 @@
 ---
-title: "My Website"
+title: "Ventana de prueba"
 ---
 
-Hello, Website!
+Hola, muchachos, aquí va toda la chamba.
