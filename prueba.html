@@ -271,7 +271,45 @@ $(document).ready(function () {
 </div>
 
 
-
+<div id="a-normal-r-code-chunk" class="section level2">
+<h2>A normal R code chunk</h2>
+<pre class="r"><code>library(reticulate)
+x = 42
+print(x)</code></pre>
+<pre><code>## [1] 42</code></pre>
+</div>
+<div id="modify-an-r-variable" class="section level2">
+<h2>Modify an R variable</h2>
+<p>In the following chunk, the value of <code>x</code> on the right hand
+side is 42, which was defined in the previous chunk.</p>
+<pre class="r"><code>x = x + 12
+print(x)</code></pre>
+<pre><code>## [1] 54</code></pre>
+</div>
+<div id="a-python-chunk" class="section level2">
+<h2>A Python chunk</h2>
+<p>This works fine and as expected.</p>
+<pre class="python"><code>x = 42 * 2
+print(x) </code></pre>
+<pre><code>## 84</code></pre>
+<p>The value of <code>x</code> in the Python session is 84. It is not
+the same <code>x</code> as the one in R.</p>
+</div>
+<div id="modify-a-python-variable" class="section level2">
+<h2>Modify a Python variable</h2>
+<pre class="python"><code>x = x + 18 
+print(x)</code></pre>
+<pre><code>## 102</code></pre>
+<p>Retrieve the value of <code>x</code> from the Python session
+again:</p>
+<pre class="r"><code>py$x</code></pre>
+<pre><code>## [1] 102</code></pre>
+<p>Assign to a variable in the Python session from R:</p>
+<pre class="r"><code>py$y = 1:5</code></pre>
+<p>See the value of <code>y</code> in the Python session:</p>
+<pre class="python"><code>print(y)</code></pre>
+<pre><code>## [1, 2, 3, 4, 5]</code></pre>
+</div>
 
 
 
